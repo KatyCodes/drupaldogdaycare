@@ -74,7 +74,7 @@ font-size: 1.6em;
 
 h2 {
 font-size: 1.5em;
-  
+
 }
 
 h3 {
@@ -145,7 +145,7 @@ margin-top: 25px;
 }
 
 .site-name {
-display: inline; 
+display: inline;
 font-weight: bold;
 font-size: 25px;
 margin-left: 15px;
@@ -155,7 +155,7 @@ font-style: italic;
 }
 
 .site-slogan {
-display: inline;                       
+display: inline;
 font-weight: bold;
 position: relative;
 margin-left: 10px;
@@ -248,7 +248,7 @@ padding:0;
 -------------------------------------------------------------- */
 
 #superfish {
-height:35px; 
+height:35px;
 float:left;
 }
 
@@ -370,10 +370,10 @@ top: 0px;
 outline:0;
 }
 
-#superfish .menu li:hover, 
+#superfish .menu li:hover,
 #superfish .menu li.sfHover,
-#superfish .menu a:focus, 
-#superfish .menu a:hover, 
+#superfish .menu a:focus,
+#superfish .menu a:hover,
 #superfish .menu a:active {
 z-index:10;
 }
@@ -409,7 +409,7 @@ text-indent:-999em;
 overflow:hidden;
 background:url(images/arrows-ffffff.png) no-repeat -10px -100px;
 }
-a > .sf-sub-indicator { 
+a > .sf-sub-indicator {
 top:.8em;
 background-position: 0 -100px;
 }
@@ -592,14 +592,14 @@ float: left;
 #layout-type-1 #sidebar-left {
 width: 26%;
 float: left;
-font-size:12px;	
+font-size:12px;
 }
 
 #layout-type-2 #sidebar-left {
 width: 21%;
 float: left;
 margin-right: 2%;
-font-size:12px;	
+font-size:12px;
 }
 
 .one-sidebar #content{
@@ -616,13 +616,13 @@ float: left;
 #layout-type-1 #sidebar-right {
 width: 26%;
 float: right;
-font-size:12px;	      
+font-size:12px;
 }
 
 #layout-type-2 #sidebar-right {
 width: 21%;
 float: right;
-font-size:12px;	      
+font-size:12px;
 }
 
 #sidebar-left h2.block-title,
@@ -1320,31 +1320,31 @@ margin-top:10px;
 /* Login + Register + RSS
 -------------------------------------------------------------- */
 
-#authorize { 
+#authorize {
 float: right;
 margin: 5px 10px 0;
 }
 
-#authorize ul { 
+#authorize ul {
 display: inline;
 }
 
-#authorize ul li { 
-margin: 0 10px 0 0; 
-padding: 0 0 0 10px; 
-display: inline; 
-list-style: none;  
+#authorize ul li {
+margin: 0 10px 0 0;
+padding: 0 0 0 10px;
+display: inline;
+list-style: none;
 border-left: 1px #5a5a5a solid;
 background-image: none;
 }
 
-#authorize ul li.first { 
+#authorize ul li.first {
 border: 0;
 }
 
-#authorize ul li, #authorize ul li a { 
-font-size: 12px; 
-line-height: 13px; 
+#authorize ul li, #authorize ul li a {
+font-size: 12px;
+line-height: 13px;
 }
 
 .feed-wrapper {
@@ -1483,20 +1483,20 @@ color: #cc6600;
 text-align:right;
 }
 
-#subnav-wrapper ul { 
+#subnav-wrapper ul {
 display: inline;
 }
 
-#subnav-wrapper ul li {  
-display: inline; 
-list-style: none;  
+#subnav-wrapper ul li {
+display: inline;
+list-style: none;
 background-image: none;
 padding-left: 5px;
 }
 
-#subnav-wrapper ul li,#subnav-wrapper ul li a { 
-font-size: 12px; 
-line-height: 13px; 
+#subnav-wrapper ul li,#subnav-wrapper ul li a {
+font-size: 12px;
+line-height: 13px;
 }
 
 /* Overlay
