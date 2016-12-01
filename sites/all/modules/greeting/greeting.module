@@ -1,0 +1,31 @@
+<?php
+function greeting_menu() {
+    $items = array();
+    $items['hello_friend'] = array(
+        'title' => 'Hello!',
+        'page callback' => 'say_hello',
+        'access callback' => TRUE,
+        'type' => MENU_CALLBACK,
+    );
+    $items['farewell'] = array(
+        'title' => 'See you later!',
+        'page callback' => 'say_farewell',
+        'access callback' => TRUE,
+        'type' => MENU_CALLBACK,
+    );
+    return $items;
+}
+function say_hello() {
+    return '<p><b>Welcome</b> to Bone Away From Home!</p>';
+}
+function say_farewell() {
+    return '<p>Hope to see you again soon!</p>';
+}
+
+function greeting_user_login(&$edit, $account) {
+    $_GET['destination'] = 'hello_friend';
+}
+
+function greeting_user_logout() {
+    $_GET['destination'] = 'farewell';
+}

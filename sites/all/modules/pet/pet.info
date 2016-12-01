@@ -1,0 +1,5 @@
+name = Pet of the Week
+description = Display Pet of the week.
+package = My Modules
+core = 7.x
+files[] = greeting.module

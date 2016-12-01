@@ -1,0 +1,25 @@
+<?php
+function pet_menu() {
+    $items = array();
+    $items['pets'] = array(
+        'title' => 'Pet of the Week',
+        'page callback' => 'pet_display',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function pet_display() {
+    $module_path = drupal_get_path('module', 'pet');
+    return '
+    <h3>This weeks Pet of the Week is Fluffy</h3>
+    <img src="' . $module_path . '/img/fluffy.jpg" alt="fluffy">
+    <h4>Fluffies favorite things include:</h4>
+    <ul>
+        <li>Going on long walks with the pack at Bone Away from Home</li>
+        <li>Playing tug of war</li>
+        <li>Getting treats!</li>
+    </ul>
+    ';
+}
