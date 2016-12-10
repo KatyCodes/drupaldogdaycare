@@ -6,7 +6,7 @@ by [Katy Henning](https://katycodes.github.io/portfolio)
 Drupal, JavaScript, jQuery
 
 ## Description
-* Basic Business page made using Drupal and some custom modules. *
+* Basic Business page made using Drupal and some custom modules. 
 
 ## Setup/Installation
 
@@ -35,7 +35,7 @@ For questions, concerns, or suggestions please email katyannhenning@gmail.com
 * Some admin features are still unfinished
 
 ## Legal
-*This software is licensed under the MIT license.
-*
+* This software is licensed under the MIT license.
+
 
 Copyright (c) 2016 Copyright _[Katy Henning](https://katycodes.github.io/portfolio)_ All Rights Reserved.
