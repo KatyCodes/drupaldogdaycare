@@ -1,0 +1,17 @@
+name = "Checkfront"
+description = "Connects Drupal to the Checkfront Online Booking, Reservation and Availability System.  Checkfront integrates into popular payment systems including Paypal, Authorize.net, SagePay and integrates into Salesforce, Xero and Google Apps.  Transactions, Reporting and Bookings are securly stored in the Checkfront backoffice app, while providing a self service booking portal on your own website."
+version = "3.0"
+core = 7.x
+package = "E-Commerce"
+files[] = checkfront.module
+files[] = CheckfrontWidget.php
+files[] = checkfront-setup.tpl.php
+files[] = pipe.html
+configure = admin/settings/checkfront
+
+; Information added by Drupal.org packaging script on 2016-10-31
+version = "7.x-1.4"
+core = "7.x"
+project = "checkfront"
+datestamp = "1477939140"
+

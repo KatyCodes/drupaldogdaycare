@@ -249,7 +249,7 @@
    array (
      'default' =>
      array (
-       'database' => 'camerons',
+       'database' => 'dogdaycaredb',
        'username' => 'admin',
        'password' => 'admin',
        'host' => '127.0.0.1',
